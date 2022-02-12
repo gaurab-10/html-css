@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="StyleSheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+
+        /* Internal CSS */
+        a:link {
+            color: rgb(214, 245, 234);
+        }
+
+        a:hover {
+            color: rgb(204, 223, 122);
+        }
+
+        nav {
+            border: none;
+        }
+
+        body {
+            background-color: rgb(40, 182, 207);
+
+        }
+           
+        .container {
+            height: 85%;
+            background-image: url("img/tech999.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: rgb(29, 11, 11);
+            margin-top: 0vh;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #473b2f;
+            border: none;
+
+
+        }
+         
+          /* CSS property for all h3 tags */
+        h3 {
+            text-align: center;
+            padding-top: 1.5vh;
+            padding-bottom: 1.5vh;
+            font-size: 23px;
+        }
+
+        /* CSS property for all p tags */
+        p {
+            padding-top: 4vh;
+            text-align: justify;
+
+            font-size: 20px;
+        }
+         
+          /* CSS property for all h5 tags */
+
+        h5 {
+            padding-top: 4.7vh;
+            float: left;
+            width: 100px;
+            height: auto;
+            padding-left: 3vh;
+            font-size: 28px;
+            color: #554c21ce;
+            font-weight: lighter;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+             
+           <!-- navigation bar -->
+        <nav id="nav1">
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="Blog.html" class="active">Blog</a></li>
+                <li><a href="Research.html">Research</a></li>
+            </ul>
+            <span>
+                <h5>𝕲𝖆𝖚𝖗𝖆𝖇</h5>
+            </span>
+        </nav>
+        <div class="container1">
+
+            <h3>Impact of Technology</h3>
+
+            <div class="newimg">
+                <img src="img/tech5.jpg" />
+            </div>
+
+            <p>Technology is the use of scientific knowledge to solve practical problems. By looking at the history we
+                can see how far we have reached in technology field. Technology can be viewed as an activity that forms
+                or changes culture. Additionally, technology is the application of mathematics, science, and the arts
+                for the benefit of life as it is known. <br><br>
+                A modern example is the rise of communication technology, which has lessened barriers to human
+                interaction and as a result has helped spawn new subcultures the rise of cyberculture has at its basis
+                the development of the Internet and the computer.Technology has made human life comfortable more than
+                ever. Using internet mobiles computer people easily connect with their nearest ones no matter where they
+                are.Transportation has made the world like a one city people can move from place to place in shorter
+                time like within a day around any part of the globe.Internet has helped a lot of students and teachers
+                to learn and teach.<span id="dots">....</span> <span id="textHide"> Internet is the sea of information
+                 every thing is found over the internet from household problems to education everything. Social
+                medias changed the way of communication among individuals .From young to adult to communicate ,to
+                 pass lesiure time or to learn something they often use social media.In a few years, driverless cars
+                may be the norm for everyone. There is no denying that the future of technology will continue to
+                revolutionize our lives. Technology is influencing and transforming our world from every aspects
+                entertainment, education, empowerment, awareness, health, communication, comfort.<br><br>
+                 Though technoglogy changed our lives it has also damaged the human life so badly.Digital technology
+                 means that vast amounts of data can be collected and stored. So, from cyber attackers or hackers
+                people are receiving the threat calls regardimg leaking their personal images, audios, videos.Cyber
+                bulling is also the next most dangerous thing over internet . Via social media, attackers attack the
+                   innocent young girls and make them victim of girls trafficking.There is an increasing tendency for
+                people to socialize and communicate via digital devices rather than through real-life contact. This
+                can easily lead to a sense of disconnect and isolation. Human beings have evolved over thousands of
+                years to have real contact, so taking that away affects them in all sorts of negative ways that
+                we're only just beginning to understand. Studies have suggested that the lack of real-life contact
+                 is causing depression and other forms of mental illness in many people.Copying and reproducing
+                digital media is very simple. Schoolchildren can simply copy and paste their homework assignments
+                without learning anything new.Addiction can be found in social networking, computer gaming,
+                chatting, and dating websites where Users end up wasting a lot of time and money in exchange for a
+                 small return.Due to over exposure of internet proper parenting for children has become
+                 impossible.More time in pc or screen causes problem in blood circulation and health of
+                 individual,They snacks a lot and donot do exercises which will automaically causes a serious health
+                problems. <br><br>
+
+                 Every thing has their own positive and negative aspects so we should try to grab the positive
+                 aspects to make ourselves better.
+            </p> </span>
+
+            <button id="readMore" onClick="loadMore()">Read more</button>
+        </div>
+
+
+        <footer>
+            <p> Copyright &copy:All rights reserved.</p>
+        </footer>
+        <script>
+            function loadMore() {
+                var dots = document.getElementById("dots");
+                var button = document.getElementById("readMore");
+                var textHide = document.getElementById("textHide");
+
+                if (dots.style.display === "none")   // if dot is not being displayed i.e full content is visible//
+                 {           // after clicking button (read less) is displays dots,  change read more to read less and hides the ersminingcontent//                                 
+                    dots.style.display = "inline";  
+                    button.innerHTML = "Read more";
+                    textHide.style.display = "none";    
+                }
+                else {
+                    dots.style.display = "none";
+                    button.innerHTML = "Read less";
+                    textHide.style.display = "inline";
+                }
+
+
+            }
+        </script>
+</body>
+
+</html>

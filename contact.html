@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="StyleSheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+        .form {
+
+            background-color: #8db8a0d8;
+            width: 67vh;
+            height: 77.5vh;
+            float: left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            outline: none;
+            color: rgba(158, 57, 57, 0.836);
+            padding-left: 3vh;
+            margin-top: 3vh;
+        }
+
+        .form placeholder {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        .form input {
+
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            background: transparent;
+        }
+
+
+
+        .main_container {
+            padding-left: 40vh;
+            margin-top: 5vh;
+            height: 82vh;
+
+
+        }
+
+        .super {
+
+            background-image: url("img/today.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+        }
+
+        .dcontainer {
+
+
+            float: left;
+            background-color: #5a857ddc;
+            font-family: Hind, sans-serif;
+            width: 50vh;
+            height: 84vh;
+            overflow: hidden;
+
+
+        }
+
+        .uli {
+
+            color: rgba(247, 239, 239, 0.911);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+
+        .uli li {
+            padding-top: 3vh;
+            padding-left: 3vh;
+            list-style: none;
+            display: inline-block;
+
+        }
+
+        .newcon {
+            font-size: 18px;
+            padding-left: 7vh;
+
+        }
+
+        /* label is a span tag */
+        label {
+            display: block;
+            /* it keeps  the space */
+            font-weight: 1700px;
+            font-size: 24px;
+        }
+
+        .newcon p {
+            font-size: 15px;
+            padding-left: 9vh;
+        }
+
+        .newcon h4 {
+            display: inline-block;
+            font-size: 21px;
+        }
+
+        .newcon i {
+            display: inline-block;
+
+            border-radius: 2.5;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: #225e55;
+        }
+
+        .form-control {
+            font-size: 14px;
+            width: 200px;
+            height: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(59, 49, 49);
+            font-weight: 800px;
+        }
+
+        .name {
+            padding-top: 9px;
+        }
+
+
+        .submit-button {
+            color: rgba(109, 24, 24, 0.842);
+            font-weight: bolder;
+            font-size: 17px;
+            padding-top: 2px;
+            border: 1px solid black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="super">
+        <nav id="nav1">
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Research.html">Research</a></li>
+            </ul>
+
+            <span> 𝕲𝖆𝖚𝖗𝖆𝖇</span>
+        </nav>
+
+        <div class="main_container">
+
+            <form onSubmit="return formValidation()" action="index.html">
+
+                <div class="form">
+                    <h3 style="text-align: center;">Thanks for visiting my protfolio, fill the form to connect with me.
+                    </h3>
+                    <label class="name"> Name:</label>
+                    <input type="text" class="form-control" placeholder=" Name" name="name" id="nameOfUser"><br><br>
+
+                    
+                    
+                    <label class="contact">Contact No:</label>
+                    <input type="text" class="form-control" placeholder="Phone no." name="phone"
+                        id="phoneNoOfUser"><br><br>
+
+
+                    <label class="email">Email:</label>
+                    <input type="email" class="form-control" placeholder="example@gmail.com" name="email"
+                        id="emailOfUser"><br><br>
+
+
+                    <label class="message">Message: </label>
+                    <textarea class="form-control" style="height:100px; display:inline-block;"
+                        placeholder="Write Message" name="message" id="messageOfUser"></textarea>
+
+                    <div class="sub">
+                        <input type="submit" style="display:inline;" class="submit-button" value="Send">
+                    </div>
+                </div>
+            </form>
+
+            <div class=dcontainer>
+                <ul class="uli">
+                    <li>
+                        <h3 class="contact" style="padding-top: 8px;"> Contact us</h3>
+                    </li> <br> <br>
+                    <div class="newcon">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <li>
+                            <h4>Address</h4>
+                        </li>
+                        <p> Pokhara,State no.4, Nepal. </p> <br>
+                        <i class="bi bi-telephone"></i>><li>
+                            <h4>Phone</h4>
+                        </li>
+                        <p> +9779806535205</p> <br>
+                        <i class="bi bi-telegram"></i>
+                        <li>
+                            <h4>Email</h4>
+                        </li>
+                        <p> gaurabacharya1@gmail.com</p> <br>
+                        <i class="bi bi-globe"></i>
+                        <li>
+                            <h4>Website</h4>
+                        </li>
+                        <p>website.html</p><br>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <br>
+    </div>
+    <footer>
+        <p> Copyright &copy:All rights reserved.</p>
+    </footer>
+
+    <!-- Internal javascript -->
+    <script>
+        function formValidation() {
+            var name = document.getElementById("nameOfUser").value;
+            var message = document.getElementById("messageOfUser").value;
+            var email = document.getElementById("emailOfUser").value;
+            var phone = document.getElementById("phoneNoOfUser").value;
+
+            if (name == "" || email == "" || message == "" || phone == "") {
+                alert("Fill all the fields.");
+                return false;
+            }
+
+            else {
+                alert("Thanks for your message.");
+                return true;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

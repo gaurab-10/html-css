@@ -1,0 +1,97 @@
+
+/* External CSS */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin:auto;
+}
+#navbar a
+{
+    text-decoration: none;
+    color:#225e55;
+
+}
+
+#navbar a.active
+{
+  color:rgba(146, 19, 19, 0.863);
+   font-weight:bold;
+}
+
+#navbar a:hover {
+    color: #ffd413;
+    font-weight:bold;
+} 
+
+
+#nav1
+{
+    background-color: rgba(219, 218, 218, 0.671);
+    border:2px inline #f7f7f7;
+    height:75px;
+   
+}
+#navbar
+ {  
+    float: right;
+    text-transform:uppercase;  
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right:15vh;
+    padding-top: 7vh;
+    font-size:15px;  
+   
+}
+
+#navbar li{
+    display: inline-block;
+    margin:auto;
+    padding-right:13px;
+    color:white;
+}
+#navbar a{
+    text-decoration: none;
+    padding-left: 25px; 
+    font-family: Hind,sans-serif;
+    font-weight:600;
+}
+
+
+#textHide
+{
+    display:none;
+}
+
+.newimg{
+    display:flex;
+    justify-content: center;
+    
+}
+.newimg img
+{  
+    width: 350px;
+    height:250px;
+    
+}
+#readMore
+{
+    background-color:black;
+    color:white;
+   margin-top: 15px;
+   padding:15px;
+   border-radius:18px;
+   margin-bottom:15px;
+}
+
+footer p{
+     padding-top:0px;
+    font-family:  Hind,sans-serif;
+    background-color: #00AA94;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    height:5vh;
+    text-align:center;
+}

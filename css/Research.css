@@ -1,0 +1,141 @@
+/* External CSS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin:auto;
+}
+#navbar a
+{
+    text-decoration: none;
+    color:#225e55;
+
+}
+
+#navbar a.active
+{
+  color:rgba(146, 19, 19, 0.863);
+   font-weight:bold;
+}
+
+#navbar a:hover {
+    color: #ffd413;
+    font-weight:bold;
+} 
+
+
+#nav1
+{
+      
+    border:2px inline #f7f7f7;
+    height:55px;
+    background-color:  rgba(232, 240, 206, 0.404);
+}
+
+#navbar
+ {  
+    float: right;
+    text-transform:uppercase;  
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right:15vh;
+    padding-top: 7vh;
+    font-size:15px;  
+   
+   
+}
+
+#navbar li{
+    display: inline-block;
+    margin:auto;
+    padding-right:13px;
+    color:white;
+}
+#navbar a{
+    text-decoration: none;
+    padding-left: 25px; 
+   
+    font-family: Hind,sans-serif;
+    font-weight:600;
+}
+/* CSS property for span tag */
+span
+{   padding-top:5.25vh;  
+    float:left;
+    width:100px;
+    height:auto;
+    padding-left:3vh;
+    font-size:18px;
+    color:#554c21ce;
+    font-weight:lighter;
+ 
+}
+table
+{
+    padding-top:15vh;
+}
+img{
+    width:550px;
+    height:auto;
+}
+.cv {
+    height:500px;
+}
+.mycv
+{
+    height:450px;
+}
+.myblog
+{
+   display:flex;
+   justify-content: center;
+}
+body{
+    background-color: rgb(231, 241, 202);
+
+    background-color: rgba(232, 240, 206, 0.5);
+
+}
+ /* CSS property for id buttonTop */
+#buttonTop
+{
+    padding:20px;
+    background-color:black;
+    color:white;
+    border-radius:90%;
+    position:fixed;
+    bottom:35px;
+    right:25px;
+    width:80px;
+    height:auto;
+    display:none;
+    cursor:pointer;
+    }
+    footer p{
+        font-family:  Hind,sans-serif;
+        background-color: #00AA94;
+        color:rgb(255, 255, 255);
+        font-size: 14px;
+        height:5vh;
+        text-align:center
+    }
+    .references {
+    
+        float:left;
+        padding-left:12vh;
+        font-size:30px;
+        padding-top:8vh;
+        color:#554c21ce;
+        font-weight:lighter;
+    }
+     
+    .website {
+    
+        float:left;
+        padding-left:65vh;
+        font-size:27px;
+        padding-top:6vh;
+        color:#554c21ce;
+        font-weight:lighter;
+    }
